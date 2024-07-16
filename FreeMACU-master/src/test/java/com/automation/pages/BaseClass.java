@@ -29,7 +29,7 @@ public class BaseClass {
 	public void setUPSuite() {
 		
 		Reporter.log("Setting Up reports and Test is getting ready ",true);
-		
+		//This is for testing
 		 excel= new ExcelDataProvider(); 
 		 config=new ConfigDataProvider();
 		 ExtentSparkReporter extent= new ExtentSparkReporter(System.getProperty("user.dir")+"/Reports/FreeCRM"+Helper.getCurrentDateTime() +".html");
